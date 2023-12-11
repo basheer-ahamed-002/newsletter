@@ -1,0 +1,115 @@
+body{
+    background-color: hsl(234, 29%, 20%);
+}
+.main{
+    width: 800px;
+    height: 500px;
+    background:  hsl(0, 0%, 100%);
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 90px;
+    border-radius: 20px;
+}
+.img1{
+height: 500px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    color: hsl(234, 29%, 20%); 
+    font-size:50px;
+    margin-left: 50px;
+}
+.para{
+    color: hsl(234, 29%, 20%); 
+    font-size: 18px;
+    margin-left:50px ;
+    margin-bottom: 20px;
+}
+.img2{
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+    padding: 10px;
+}
+.tick{
+    display: flex;
+    font-size: 16px;
+}
+.product{
+    color: hsl(235, 18%, 26%);
+    margin-bottom: -5px;
+}
+.email{
+    font-size: 20px;
+    margin-left: 50px;
+    color:  hsl(234, 29%, 20%);;
+    margin-top: -3px;
+}
+input{
+    margin-left: 50px;
+    width: 300px;
+    padding: 10px;
+    margin-top:-8px ;
+    border-radius: 5px;
+    color:  hsl(235, 18%, 26%);;
+    
+}
+
+.news{
+    width: 300px;
+    padding: 5px;
+    background:  hsl(234, 29%, 20%);
+    font-size: 20px;
+    color:  hsl(0, 0%, 100%);
+    margin-left: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.news:hover{
+    background: red;
+}
+.cart{
+    width: 400px;
+    height: 300px;
+    background: blueviolet;
+    position: absolute;
+    margin-left: 10%;
+    top: -100%;
+    position: fixed;
+   
+}
+.cart1{
+    display: flex;
+}
+.img3{
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 60%;
+}
+.main1{
+    padding: 30px;
+    font-size: 20px;
+}
+.dismiss{
+    width: 300px;
+    background: white;
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.dismiss:hover{
+    background: red;
+}
+.cart.active-cart{
+    top: 0;
+    transition: 0.5s;
+
+}
